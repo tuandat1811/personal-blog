@@ -183,8 +183,59 @@ params:
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main: []
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: 1
+          pre: home
+          params:
+              newTab: false
+              icon: house
 
+        - identifier: story
+          name: Story
+          url: /categories/Story/
+          weight: 2
+          pre: story
+          params:
+              newTab: false
+              icon: archive
+
+        - identifier: techstuff
+          name: Tech
+          url: /categories/Tech/
+          weight: 3
+          pre: Tech
+          params:
+              newTab: false
+              icon: code-slash
+
+        - identifier: chill
+          name: Chill
+          url: /categories/Chill/
+          weight: 4
+          pre: chill
+          params:
+              newTab: false
+              icon: cup
+
+        - identifier: about
+          name: About me
+          url: /about
+          weight: 5
+          pre: user
+          params:
+              newTab: false
+              icon: file-person
+
+        - identifier: search
+          name: Search
+          url: /search
+          weight: 6
+          pre: search
+          params:
+              newTab: false
     social:
         - identifier: github
           name: GitHub
