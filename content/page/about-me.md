@@ -1,6 +1,6 @@
 ---
 title: About me
-description: World changer (not really)
+description: Story teller
 author: Hoang Dang Tuan Dat
 date: '2022-05-28'
 aliases:
