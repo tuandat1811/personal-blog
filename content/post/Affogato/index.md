@@ -75,5 +75,7 @@ Nhưng bạn tôi ơi, đừng để cốc Affogato tuyệt vời kia tan đi m�
 
 > The coffee gives you energy, and the ice cream makes you happy.
 
+![](0906affogato.jpg)
+
 
 
